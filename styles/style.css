@@ -1,7 +1,41 @@
 header {
   background-color: lightgray;
+  border-style: solid;
 }
 
-body { 
+.link {
+  color: darkred;
+}
+
+.link:hover {
+  color: blue;
+}
+
+body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: lightpink;
+}
+
+main h1 {
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+.img {
+  height: 375px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.nobull {
+  list-style-type: none;
+}
+
+.info { font-weight: bold;
+}
+
+footer {
+  background-color: lightgray;
+  border-style: solid;
 }
